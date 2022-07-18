@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header > time {
+  line-height: 1.6;
+  font-size: 0.875rem;
+  color: var(--gray-400);
+}

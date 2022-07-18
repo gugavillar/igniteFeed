@@ -1,0 +1,15 @@
+.author {
+  display: flex;
+  flex-direction: column;
+}
+
+.author strong {
+  line-height: 1.6;
+  color: var(--gray-100);
+}
+
+.author span {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--gray-400);
+}
